@@ -4,8 +4,8 @@ A React application for searching movies and TV shows using the OMDb API.
 
 ## Prerequisites
 
-Required Node.js version: v22.14.0 or higher
-Required npm version: v11.2.0 or higher
+Required Node.js version: v22.14.0
+Required npm version: v11.2.0
 
 ## Getting Started
 
