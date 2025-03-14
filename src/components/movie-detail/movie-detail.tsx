@@ -1,5 +1,6 @@
 import { useCallback, useMemo } from "react";
 import { useNavigate } from "react-router";
+import { ArrowLeftIcon, Loader2 } from "lucide-react";
 import {
   Card,
   CardContent,
@@ -9,12 +10,11 @@ import {
   CardTitle,
 } from "../ui/card";
 import { Button } from "../ui/button";
-import styles from "./movie-detail.module.scss";
-import { ArrowLeftIcon, Loader2 } from "lucide-react";
 import { Label } from "../ui/label";
 import { ResultTypeEnum } from "@/definitions/omdb.types";
 import { useDetailQuery } from "@/store/slices/api";
 import { MovieDetailProps } from "./movie-detail.types";
+import styles from "./movie-detail.module.scss";
 
 export const MovieDetail = ({ id }: MovieDetailProps) => {
   const navigate = useNavigate();

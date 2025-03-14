@@ -5,8 +5,8 @@ import { setPage } from "@/store/slices/ui";
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
 import { PaginationProps } from "./pagination.types";
-import styles from "./pagination.module.scss";
 import { Label } from "../ui/label";
+import styles from "./pagination.module.scss";
 
 export const Pagination = ({ totalItems }: PaginationProps) => {
   const dispatch = useAppDispatch();

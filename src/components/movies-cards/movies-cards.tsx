@@ -9,8 +9,8 @@ import {
   CardFooter,
   CardTitle,
 } from "../ui/card";
-import styles from "./movies-cards.module.scss";
 import { Pagination } from "../pagination/pagination";
+import styles from "./movies-cards.module.scss";
 
 export const MoviesCards = () => {
   const navigate = useNavigate();

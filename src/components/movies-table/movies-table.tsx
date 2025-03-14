@@ -1,5 +1,6 @@
 import { useCallback, useMemo } from "react";
 import { useNavigate } from "react-router";
+import { Loader2 } from "lucide-react";
 import {
   Table,
   TableBody,
@@ -8,10 +9,9 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { Loader2 } from "lucide-react";
-import styles from "./movies-table.module.scss";
 import { Pagination } from "../pagination/pagination";
 import { useSearch } from "@/api/use-search";
+import styles from "./movies-table.module.scss";
 
 export const MoviesTable = () => {
   const navigate = useNavigate();

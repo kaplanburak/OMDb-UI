@@ -20,7 +20,7 @@ Otherwise, you'll need to install these versions manually from [Node.js website]
 1. Clone the repository
 2. Install dependencies:
    ```bash
-   npm install
+   npm install --legacy-peer-deps
    ```
 3. Create a `.env` file in the root directory and add your OMDb API key:
    ```
