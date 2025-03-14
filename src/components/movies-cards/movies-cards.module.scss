@@ -1,0 +1,31 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.card {
+  width: 100%;
+  min-width: 240px;
+  padding: 12px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.id {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.pagination {
+  grid-column: 1 / -1;
+  margin-top: 12px;
+}

@@ -1,0 +1,62 @@
+.card {
+  padding: 24px;
+
+  &Header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  &Content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  
+    &Main {
+      display: flex;
+      gap: 24px;
+
+      &Image {
+        flex: 1 0 260px;
+      }
+    }
+  }
+
+  &Footer {
+    display: flex;
+    justify-content: flex-end;
+  
+      > button {
+        cursor: pointer;
+      }
+  }
+}
+
+.plot {
+    font-size: 16px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+
+@media (max-width: 768px) {
+  .plot {
+    margin-bottom: 12px;
+  }
+
+  .cardContentMain {
+    flex-direction: column;
+    align-items: center;
+
+    &Image {
+      flex: 1 1;
+    }
+  }
+  
+  
+}
